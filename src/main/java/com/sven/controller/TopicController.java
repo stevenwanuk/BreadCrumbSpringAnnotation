@@ -10,7 +10,7 @@ import com.sven.annotation.BreadCrumb;
 public class TopicController
 {
 
-    @BreadCrumb(name = "topicBC", key = "topicId", label = "topicTitle.something[0].abc")
+    @BreadCrumb(name = "topicBC", key = "topicId", label = "topicTitle")
     @RequestMapping("/topic")
     public ModelAndView topic()
     {
